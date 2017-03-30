@@ -127,9 +127,9 @@ class WaterReportsVC: UIViewController, UITableViewDelegate, UITableViewDataSour
             if snapshot.exists() {
                 let name = snapshot.value as! String
                 self.reportedByLabel.text = "Reported by: \(name)"
-                self.waterColorLabel.text = "Overall Condition \(waterReport.waterColor)"
-                self.waterConditionLabel.text = "Virus PPM: \(waterReport.waterCondition)"
-                self.waterTypeLabel.text = "Contaminant PPM: \(waterReport.waterType)"
+                self.waterColorLabel.text = "Water Color: \(waterReport.waterColor)"
+                self.waterConditionLabel.text = "Water Condition: \(waterReport.waterCondition)"
+                self.waterTypeLabel.text = "Water Type: \(waterReport.waterType)"
                 let date = Date(timeIntervalSince1970: TimeInterval(waterReport.date))
                 let formatter = DateFormatter()
                 formatter.dateFormat = "MM/dd/yyyy"

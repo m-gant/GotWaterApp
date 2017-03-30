@@ -192,33 +192,6 @@
                                     <constraint firstAttribute="height" constant="45" id="HmN-Tu-39N"/>
                                 </constraints>
                             </stackView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OW6-xL-r4v">
-                                <rect key="frame" x="26" y="458.5" width="323" height="45"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="45" id="hYQ-mZ-o3U"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
-                                <state key="normal" title="Back to School Sign-In">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                        <integer key="value" value="5"/>
-                                    </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                                        <real key="value" value="5"/>
-                                    </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
-                                        <color key="value" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                    </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
-                                        <real key="value" value="2"/>
-                                    </userDefinedRuntimeAttribute>
-                                </userDefinedRuntimeAttributes>
-                                <connections>
-                                    <action selector="backToWelcomeBtnPressed:" destination="pWv-IJ-evk" eventType="touchUpInside" id="NDO-lH-C4S"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.22798612709999999" green="0.73234325649999998" blue="0.92334038019999998" alpha="0.91459760270000001" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -228,9 +201,7 @@
                             <constraint firstItem="hRD-nE-4zC" firstAttribute="top" secondItem="GXZ-Ou-xNj" secondAttribute="top" id="Hh2-9W-zo4"/>
                             <constraint firstAttribute="trailingMargin" secondItem="lXa-Ke-oWm" secondAttribute="trailing" constant="10" id="J3j-9m-tyT"/>
                             <constraint firstItem="lXa-Ke-oWm" firstAttribute="top" secondItem="gXe-wk-Y1i" secondAttribute="bottom" constant="20" id="N6Y-UT-U6Y"/>
-                            <constraint firstItem="OW6-xL-r4v" firstAttribute="top" secondItem="CGN-8L-wZp" secondAttribute="bottom" constant="15" id="QIY-84-P7p"/>
                             <constraint firstItem="CGN-8L-wZp" firstAttribute="top" secondItem="lXa-Ke-oWm" secondAttribute="bottom" constant="20" id="SAM-m2-4sS"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="OW6-xL-r4v" secondAttribute="trailing" constant="10" id="YXc-dq-1cO"/>
                             <constraint firstItem="gXe-wk-Y1i" firstAttribute="width" secondItem="lXa-Ke-oWm" secondAttribute="width" id="Yc4-Up-k1k"/>
                             <constraint firstAttribute="trailing" secondItem="N0t-Nt-7h3" secondAttribute="trailing" id="emd-Ha-nBd"/>
                             <constraint firstItem="CGN-8L-wZp" firstAttribute="width" secondItem="lXa-Ke-oWm" secondAttribute="width" id="fEe-ZL-lD2"/>
@@ -242,7 +213,6 @@
                             <constraint firstItem="hRD-nE-4zC" firstAttribute="leading" secondItem="GXZ-Ou-xNj" secondAttribute="leading" id="qco-7I-byv"/>
                             <constraint firstItem="gXe-wk-Y1i" firstAttribute="top" secondItem="Tkc-wi-ImP" secondAttribute="bottom" constant="80" id="qu9-zK-Qnj"/>
                             <constraint firstItem="SOP-SL-XlA" firstAttribute="top" secondItem="N0t-Nt-7h3" secondAttribute="bottom" id="wfH-6k-p1L"/>
-                            <constraint firstItem="OW6-xL-r4v" firstAttribute="leading" secondItem="GXZ-Ou-xNj" secondAttribute="leadingMargin" constant="10" id="yvz-fE-61b"/>
                             <constraint firstItem="N0t-Nt-7h3" firstAttribute="leading" secondItem="GXZ-Ou-xNj" secondAttribute="leading" id="zrw-i4-lef"/>
                         </constraints>
                     </view>
