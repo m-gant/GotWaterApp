@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		192F97581E8A179100FF53F3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192F97571E8A179100FF53F3 /* AppDelegate.swift */; };
+		192F975D1E8A179100FF53F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 192F975B1E8A179100FF53F3 /* Main.storyboard */; };
+		192F975F1E8A179100FF53F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 192F975E1E8A179100FF53F3 /* Assets.xcassets */; };
+		192F97621E8A179100FF53F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 192F97601E8A179100FF53F3 /* LaunchScreen.storyboard */; };
+		192F976A1E8A1B6800FF53F3 /* Login_RegistrationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192F97691E8A1B6800FF53F3 /* Login_RegistrationVC.swift */; };
+		192F976C1E8A1BF700FF53F3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 192F976B1E8A1BF700FF53F3 /* GoogleService-Info.plist */; };
+		192F976E1E8B0ADB00FF53F3 /* MapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192F976D1E8B0ADB00FF53F3 /* MapVC.swift */; };
+		192F97921E8B412800FF53F3 /* WaterSourceDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192F97911E8B412800FF53F3 /* WaterSourceDetailVC.swift */; };
+		192F97941E8B671300FF53F3 /* WaterReportsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192F97931E8B671300FF53F3 /* WaterReportsVC.swift */; };
+		192F97961E8B73A400FF53F3 /* NewWaterReportVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192F97951E8B73A400FF53F3 /* NewWaterReportVC.swift */; };
+		192F97981E8B851800FF53F3 /* WaterReportCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192F97971E8B851800FF53F3 /* WaterReportCell.swift */; };
+		192F979A1E8C53CB00FF53F3 /* PurityReportsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192F97991E8C53CB00FF53F3 /* PurityReportsVC.swift */; };
+		192F979C1E8C55D500FF53F3 /* PurityCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192F979B1E8C55D500FF53F3 /* PurityCell.swift */; };
+		192F979E1E8CBCDD00FF53F3 /* NewPurityReportVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192F979D1E8CBCDD00FF53F3 /* NewPurityReportVC.swift */; };
+		192F97A01E8D7F2900FF53F3 /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192F979F1E8D7F2900FF53F3 /* ProfileVC.swift */; };
+		46E2A825DE4BF5D4422D94F7 /* libPods-Got Water.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 29AB651A8C99A7E64997A8F5 /* libPods-Got Water.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		192F97541E8A179100FF53F3 /* Got Water.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Got Water.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		192F97571E8A179100FF53F3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		192F975C1E8A179100FF53F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		192F975E1E8A179100FF53F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		192F97611E8A179100FF53F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		192F97631E8A179100FF53F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		192F97691E8A1B6800FF53F3 /* Login_RegistrationVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Login_RegistrationVC.swift; sourceTree = "<group>"; };
+		192F976B1E8A1BF700FF53F3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		192F976D1E8B0ADB00FF53F3 /* MapVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapVC.swift; sourceTree = "<group>"; };
+		192F97911E8B412800FF53F3 /* WaterSourceDetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WaterSourceDetailVC.swift; sourceTree = "<group>"; };
+		192F97931E8B671300FF53F3 /* WaterReportsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WaterReportsVC.swift; sourceTree = "<group>"; };
+		192F97951E8B73A400FF53F3 /* NewWaterReportVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewWaterReportVC.swift; sourceTree = "<group>"; };
+		192F97971E8B851800FF53F3 /* WaterReportCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WaterReportCell.swift; sourceTree = "<group>"; };
+		192F97991E8C53CB00FF53F3 /* PurityReportsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PurityReportsVC.swift; sourceTree = "<group>"; };
+		192F979B1E8C55D500FF53F3 /* PurityCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PurityCell.swift; sourceTree = "<group>"; };
+		192F979D1E8CBCDD00FF53F3 /* NewPurityReportVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewPurityReportVC.swift; sourceTree = "<group>"; };
+		192F979F1E8D7F2900FF53F3 /* ProfileVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
+		29AB651A8C99A7E64997A8F5 /* libPods-Got Water.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Got Water.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		86AE4F8FF50834BF86727DB9 /* Pods-Got Water.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Got Water.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Got Water/Pods-Got Water.debug.xcconfig"; sourceTree = "<group>"; };
+		B8A06B66EE5FAF9CD96CE4FB /* Pods-Got Water.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Got Water.release.xcconfig"; path = "Pods/Target Support Files/Pods-Got Water/Pods-Got Water.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		192F97511E8A179100FF53F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46E2A825DE4BF5D4422D94F7 /* libPods-Got Water.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		192F974B1E8A179100FF53F3 = {
+			isa = PBXGroup;
+			children = (
+				192F97561E8A179100FF53F3 /* Got Water */,
+				192F97551E8A179100FF53F3 /* Products */,
+				7D39D45FBEB3A28F5B35A816 /* Pods */,
+				41944884F6E60156957794B7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		192F97551E8A179100FF53F3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				192F97541E8A179100FF53F3 /* Got Water.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		192F97561E8A179100FF53F3 /* Got Water */ = {
+			isa = PBXGroup;
+			children = (
+				192F97571E8A179100FF53F3 /* AppDelegate.swift */,
+				192F97691E8A1B6800FF53F3 /* Login_RegistrationVC.swift */,
+				192F976D1E8B0ADB00FF53F3 /* MapVC.swift */,
+				192F979F1E8D7F2900FF53F3 /* ProfileVC.swift */,
+				192F97911E8B412800FF53F3 /* WaterSourceDetailVC.swift */,
+				192F97971E8B851800FF53F3 /* WaterReportCell.swift */,
+				192F97931E8B671300FF53F3 /* WaterReportsVC.swift */,
+				192F97951E8B73A400FF53F3 /* NewWaterReportVC.swift */,
+				192F979B1E8C55D500FF53F3 /* PurityCell.swift */,
+				192F97991E8C53CB00FF53F3 /* PurityReportsVC.swift */,
+				192F979D1E8CBCDD00FF53F3 /* NewPurityReportVC.swift */,
+				192F975B1E8A179100FF53F3 /* Main.storyboard */,
+				192F975E1E8A179100FF53F3 /* Assets.xcassets */,
+				192F97601E8A179100FF53F3 /* LaunchScreen.storyboard */,
+				192F97631E8A179100FF53F3 /* Info.plist */,
+				192F976B1E8A1BF700FF53F3 /* GoogleService-Info.plist */,
+			);
+			path = "Got Water";
+			sourceTree = "<group>";
+		};
+		41944884F6E60156957794B7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29AB651A8C99A7E64997A8F5 /* libPods-Got Water.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7D39D45FBEB3A28F5B35A816 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				86AE4F8FF50834BF86727DB9 /* Pods-Got Water.debug.xcconfig */,
+				B8A06B66EE5FAF9CD96CE4FB /* Pods-Got Water.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		192F97531E8A179100FF53F3 /* Got Water */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 192F97661E8A179100FF53F3 /* Build configuration list for PBXNativeTarget "Got Water" */;
+			buildPhases = (
+				E25A8C57C30AEF8C97EB91DE /* [CP] Check Pods Manifest.lock */,
+				192F97501E8A179100FF53F3 /* Sources */,
+				192F97511E8A179100FF53F3 /* Frameworks */,
+				192F97521E8A179100FF53F3 /* Resources */,
+				6C3952FF65C501147841D7E3 /* [CP] Embed Pods Frameworks */,
+				5695E576CF66FE3F1507D28E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Got Water";
+			productName = "Got Water";
+			productReference = 192F97541E8A179100FF53F3 /* Got Water.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		192F974C1E8A179100FF53F3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Mitchell Gant";
+				TargetAttributes = {
+					192F97531E8A179100FF53F3 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 8ERFWF6T4Q;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 192F974F1E8A179100FF53F3 /* Build configuration list for PBXProject "Got Water" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 192F974B1E8A179100FF53F3;
+			productRefGroup = 192F97551E8A179100FF53F3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				192F97531E8A179100FF53F3 /* Got Water */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		192F97521E8A179100FF53F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				192F97621E8A179100FF53F3 /* LaunchScreen.storyboard in Resources */,
+				192F975F1E8A179100FF53F3 /* Assets.xcassets in Resources */,
+				192F975D1E8A179100FF53F3 /* Main.storyboard in Resources */,
+				192F976C1E8A1BF700FF53F3 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5695E576CF66FE3F1507D28E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Got Water/Pods-Got Water-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6C3952FF65C501147841D7E3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Got Water/Pods-Got Water-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E25A8C57C30AEF8C97EB91DE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		192F97501E8A179100FF53F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				192F97921E8B412800FF53F3 /* WaterSourceDetailVC.swift in Sources */,
+				192F97581E8A179100FF53F3 /* AppDelegate.swift in Sources */,
+				192F97941E8B671300FF53F3 /* WaterReportsVC.swift in Sources */,
+				192F97961E8B73A400FF53F3 /* NewWaterReportVC.swift in Sources */,
+				192F979C1E8C55D500FF53F3 /* PurityCell.swift in Sources */,
+				192F976E1E8B0ADB00FF53F3 /* MapVC.swift in Sources */,
+				192F979E1E8CBCDD00FF53F3 /* NewPurityReportVC.swift in Sources */,
+				192F979A1E8C53CB00FF53F3 /* PurityReportsVC.swift in Sources */,
+				192F976A1E8A1B6800FF53F3 /* Login_RegistrationVC.swift in Sources */,
+				192F97A01E8D7F2900FF53F3 /* ProfileVC.swift in Sources */,
+				192F97981E8B851800FF53F3 /* WaterReportCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		192F975B1E8A179100FF53F3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				192F975C1E8A179100FF53F3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		192F97601E8A179100FF53F3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				192F97611E8A179100FF53F3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		192F97641E8A179100FF53F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		192F97651E8A179100FF53F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		192F97671E8A179100FF53F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86AE4F8FF50834BF86727DB9 /* Pods-Got Water.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8ERFWF6T4Q;
+				INFOPLIST_FILE = "Got Water/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.MitchellGant.Got-Water";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		192F97681E8A179100FF53F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8A06B66EE5FAF9CD96CE4FB /* Pods-Got Water.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8ERFWF6T4Q;
+				INFOPLIST_FILE = "Got Water/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.MitchellGant.Got-Water";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		192F974F1E8A179100FF53F3 /* Build configuration list for PBXProject "Got Water" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				192F97641E8A179100FF53F3 /* Debug */,
+				192F97651E8A179100FF53F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		192F97661E8A179100FF53F3 /* Build configuration list for PBXNativeTarget "Got Water" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				192F97671E8A179100FF53F3 /* Debug */,
+				192F97681E8A179100FF53F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 192F974C1E8A179100FF53F3 /* Project object */;
+}
