@@ -74,7 +74,7 @@ class ProfileVC: UIViewController, UITextFieldDelegate {
 
                 
             })
-            alert_1.addAction(action_1)
+            alert_1.addAction(action_1) 
             self.present(alert_1, animated: true, completion: nil)
         
         
